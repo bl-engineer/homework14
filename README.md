@@ -62,6 +62,14 @@ You are required to submit BOTH of the following for review:
 
 ## Result: screenshot of the deployed URL on Heroku and data on POSTMAN connected to JAWSDB
 
+<img width="1743" alt="Screen Shot 2022-10-04 at 8 46 32 AM" src="https://user-images.githubusercontent.com/15242022/193823788-3bc90828-37b2-4479-947c-51d681ccd505.png">
+
+<img width="1500" alt="Screen Shot 2022-10-04 at 8 38 39 AM" src="https://user-images.githubusercontent.com/15242022/193824004-7efa6bb7-cd47-48ee-ad67-79ba158fa845.png">
+
+<img width="1500" alt="Screen Shot 2022-10-04 at 8 38 57 AM" src="https://user-images.githubusercontent.com/15242022/193824120-0a68bc66-79b1-48ce-8154-6a3eb7e5598c.png">
+
+<img width="1500" alt="Screen Shot 2022-10-04 at 8 39 08 AM" src="https://user-images.githubusercontent.com/15242022/193824226-bf1f4dea-4033-4fd9-8fcf-730fa7e3d610.png">
+
 
 
 ---
