@@ -3,35 +3,37 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech Blog</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>The Tech Blog</title>
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
 </head>
 
 <body class="min-100-vh flex-column bg-light">
-  <header class="p-5 text-center text-white bg-danger">
-    <h1>The Tech Blog</h1>
+  <header>
+    <div class="navbar navbar-dark bg-dark box-shadow">
+      <section class="title">The Tech Blog</section>
+      <section class="p-4">
+        <nav class="p-2">
+          <a href="/" class="navigation-link">Home</a>
+          {{#if loggedIn}}
+            <a href="/dashboard">Dashboard</a>
+            <a href="#" id="logout" class="navigation-link">Logout</a>
+          {{else}}
+            <a href="/login" class="navigation-link">Login</a>
+            <a href="/register" class="navigation-link">Register</a>
+          {{/if}}
+        </nav>
+      </section>
+    </div>
   </header>
-  <section class="p-4">
-    <nav class="p-2">
-      <a href="/" class="navigation-link">Home</a>
-      {{#if loggedIn}}
-      <a href="/dashboard">Dashboard</a>
-      <a href="#" id="logout" class="navigation-link">Logout</a>
-      {{else}}
-      <a href="/login" class="navigation-link">Login</a>
-      <a href="/register" class="navigation-link">Register</a>
-      {{/if}}
-    </nav>
-    <main class="p-2">
-      <div class="main-body">
-        {{{body}}}
-      </div>
-    </main>
-  </section>
+  <main class="p-2">
+    <div class="main-body">
+      {{{body}}}
+    </div>
+  </main>
   {{#if loggedIn}}
-  <script src="/js/logout.js"></script>
+    <script src="/js/logout.js"></script>
   {{/if}}
 </body>
 

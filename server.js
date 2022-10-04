@@ -45,7 +45,7 @@ hbs.handlebars.registerHelper('isContentOwnedBySessionUser', function(contentOwn
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () =>
     console.log(
-      `App listening on port ${PORT}! Go to http://localhost:${PORT} to create an account!`
+      `\n App listening on port ${PORT}! visit the main page on http://localhost:${PORT}`
     )
   );
 });

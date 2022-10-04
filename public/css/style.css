@@ -1,13 +1,22 @@
 :root {
-    --red: #dc3545;
-    --gold: gold;
+    --red: white;
   }
 
 main a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--red);
+    color: #e01b1b;
 }
+
+.title {
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: #0dcaf0;
+    border: 6px solid white;
+    border-top-color: #e01b1b;
+  }
+
 
 .header-link a{
     text-decoration: none;
@@ -16,7 +25,7 @@ main a {
 }
 
 .header-link a:hover{
-    color: var(--gold);
+    color: #0dcaf0;
 }
 
 nav a {
@@ -24,14 +33,14 @@ nav a {
     font-weight: bold;
     color: var(--red);
     padding: 8px;
-    border: 1px solid black;
+    border: 1px solid #0dcaf0;
     border-radius: 3px;
     display: inline;
     margin-right: 5px;
 }
 
 nav a:hover {
-    color: white;
+    color: rgb(7, 27, 205);
     padding: 8px;
     background-color: var(--red);
 }
@@ -44,11 +53,12 @@ nav a:hover {
 
 .create-link {
     background-color: var(--red);
-    color: white;
+    color: #e01b1b;
     font-weight: bold;
     text-decoration: none;
     padding: 8px;
     border-radius: 3px;
+    border: 1px solid black
 }
 
 .create-link:hover {
@@ -70,7 +80,7 @@ nav a:hover {
 
 .comment-editor {
     width: 40%;
-    height: 100px;
+    height: 110px;
 }
 
 .comment {
@@ -82,14 +92,22 @@ nav a:hover {
 }
 
 button {
-    padding: 8px;
+    padding: 10px;
     border: 1px solid black;
     border-radius: 8px;
-    color: var(--red);
+    color: #e01b1b;
     font-weight: bold;
     background-color: white;
 }
 
+
 button:hover {
-    background-color: #EFEFEF;
+    background-color: rgb(239, 239, 239);
 }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  

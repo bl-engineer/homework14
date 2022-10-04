@@ -38,7 +38,6 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/post/:id', async (req, res) => {
-  // Redirects the user to the login page if not logged in
   if (!req.session.loggedIn) {
     res.redirect('/login');
   } else {

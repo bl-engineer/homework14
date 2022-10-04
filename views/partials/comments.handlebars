@@ -2,7 +2,7 @@
     {{#each this.post.comments}}
     <section class='comment'>
         <section class='comment-header'>
-            <b>{{user.username}}</b> > {{format_date created_at}}
+            <b>{{user.username}}</b> on {{format_date created_at}}
             {{#isContentOwnedBySessionUser this.user_id}}
                 <a href="/dashboard/editComment/{{id}}">Edit</a> | <a href="#" class="delete-comment" data-id="{{id}}">Delete</a>
             {{/isContentOwnedBySessionUser}}
