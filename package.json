@@ -1,0 +1,38 @@
+{
+  "name": "techblog",
+  "version": "1.0.0",
+  "description": "MVC used to make a Tech Blog app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bl-engineer/homework14"
+  },
+  "keywords": [
+    "technology",
+    "handlebars",
+    "bcrypt",
+    "bootstrap",
+    "express",
+    "mysql2",
+    "sequelize"
+],
+  "author": "Bocar Ly",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.2.0",
+    "connect-session-sequelize": "^7.1.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  }
+}
