@@ -1,0 +1,14 @@
+{{> post-page data.post}}
+
+{{#if loggedIn}}
+<section>
+    <section><textarea class="comment-editor" name="comment"></textarea></section>
+    <section><button id="submit-comment">Comment</button></section>
+</section>
+{{/if}}
+
+<section id="comments" class="mt-4">
+    {{> comments data}}
+</section>
+
+<script src="/js/comment.js"></script>

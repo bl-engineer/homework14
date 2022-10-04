@@ -1,0 +1,17 @@
+<section>
+    <header>
+        <h2>Edit comment</h2>
+    </header>
+    <section class="editor">
+        <input type="hidden" name="comment-id" value="{{comment.id}}" />
+        <input type="hidden" name="post-id" value="{{comment.post_id}}" />
+        <section>
+            <textarea name="content" class="post-editor">{{comment.comment_content}}</textarea>
+        </section>
+        <section>
+            <button id="submit-post">Submit</button>
+        </section>
+    </section>
+</section>
+
+<script src="/js/edit-comment.js"></script>

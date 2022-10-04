@@ -1,0 +1,21 @@
+<section class="card my-2">
+    <header class="bg-danger p-1 header-link">
+        <a href="/post/{{id}}">{{post_title}}</a>
+    </header>
+    <section class="p-2">
+        <section>
+            <b>{{user.username}}</b> > {{format_date created_at}}
+            {{#isContentOwnedBySessionUser this.user_id}}
+                <a href="/dashboard/edit/{{id}}">Edit</a> | <a href="#" class="delete-post" data-id="{{id}}">Delete</a>
+            {{/isContentOwnedBySessionUser}}
+            <hr>
+        </section>
+        <section>
+            {{post_content}}
+        </section>
+        <section>
+            <a href="/post/{{id}}#comments">Comments ({{comments.length}})</a>
+        </section>
+    </section>
+</section>
+<script src="/js/delete-post.js"></script>
