@@ -22,7 +22,7 @@ const commentData = [
     post_id: 1
   },
   {
-    comment_content: `Le nuclaire est l'example frappant`,
+    comment_content: 'Le nuclaire est lexample frappant',
     user_id: 2,
     post_id: 5
   },
@@ -65,16 +65,6 @@ const commentData = [
     comment_content: 'Galileo',
     user_id: 1,
     post_id: 4
-  },
-  {
-    comment_content: 'Is that true?',
-    user_id: 2,
-    post_id: 7
-  },
-  {
-    comment_content: 'I hate the hidden thoughts. Lets teach',
-    user_id: 6,
-    post_id: 7
   },
   {
     comment_content: 'Touch the moon and see the power of God',
