@@ -1,0 +1,95 @@
+:root {
+    --red: #dc3545;
+    --gold: gold;
+  }
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--red);
+}
+
+.header-link a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.header-link a:hover{
+    color: var(--gold);
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--red);
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: inline;
+    margin-right: 5px;
+}
+
+nav a:hover {
+    color: white;
+    padding: 8px;
+    background-color: var(--red);
+}
+
+.user-input {
+    display: inline;
+    padding: 8px;
+    margin: 8px;
+}
+
+.create-link {
+    background-color: var(--red);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.create-link:hover {
+    color: var(--gold);
+}
+
+.editor {
+    width: 75%;
+    margin: 0px auto;
+}
+
+.post-title {
+    width: 50%;
+}
+.post-editor {
+    width: 100%;
+    height: 500px;
+}
+
+.comment-editor {
+    width: 40%;
+    height: 100px;
+}
+
+.comment {
+    border: 2px solid var(--red);
+    border-radius: 3px;
+    margin: 5px;
+    padding: 3px;
+    width: 50%;
+}
+
+button {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: var(--red);
+    font-weight: bold;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #EFEFEF;
+}
